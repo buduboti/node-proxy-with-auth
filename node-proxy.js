@@ -17,8 +17,8 @@ const server = http.createServer((req, res) => {
 		  host: '172.16.0.1',
 		  port: 3128,
 		  auth: {
-			  username: 'pxuser',
-			  password: 'Q22'
+			  username: 'proxy_user',
+			  password: 'proxy_user_passwd'
 		  }
 	  }
   };
